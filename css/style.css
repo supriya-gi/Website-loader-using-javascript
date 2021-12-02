@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page_content{
+    display: none;
+}
+.spinner{
+    width: 100%;
+    height: 100vh;
+    background-color: #e5eff1;
+}
+.spinner_img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('../img/loding.gif');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.page_content{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/chritsmas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
